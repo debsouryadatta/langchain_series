@@ -21,4 +21,4 @@
 10. Running the app with uvicorn, python app.py -> server started on port 8000
 11. Creating the streamlit app in client.py, writing get_openai_response func -> calling to "/essay/invoke" route, writing the get_ollama_response func -> calling to "/poem/invoke" route
 12. Running the streamlit app -> streamlit run client.py
-13. Since I dont have the OpenAI API key, so I just tested out for the Ollama model, and it worked fine.
+13. Since I dont have the OpenAI API key, so I just tested out for the Ollama model, and it worked fine. 
