@@ -53,3 +53,13 @@
 24. Querying the vector store, and retrieving the similar documents
 
 25. Using FAISS for the vector store, writing the code for this
+
+26. Using OllamaEmbeddings instead of OpenAIEmbeddings, storing it on DB, and querying the vector store
+
+
+### Advanced RAG Q&A Chatbot With Chain And Retrievers Using Langchain
+27. Combine Prompts along with chains and retrievers, get a response based on the prompt
+
+28. In the previous video, we were storing the embeddings in the vector store, and then doing similarity search on that, but in this video we will be using the retrievers for retrieving the data in the vector store and put it into the prompt and chain them to get the response
+
+29. Firstly loading the pdf, splitting it down, storing it into the vector db, defining the llm, writing the prompt, chaining the prompt with the llm, defining the retriever, using retriever and document_chain to form the retrieval_chain, then finally invoking the retrieval_chain with the input to get the response
