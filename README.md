@@ -83,3 +83,15 @@
 37. Then we will be using langchain agents to use the tools for getting the response, creating the agent using create_openai_tools_agent which takes llm, tools and prompt as the args, setting the llm as ollama and using a specific random prompt from langchain hub
 
 38. Finally creating the agent_executor which takes agent and tools as the args, and then invoking the agent_executor with the input to get the response.
+
+
+### 07 - End To End Advanced RAG Project using Open Source LLM Models And Groq Inferencing engine
+39. Getting the Groq Api Key from the Groq website, and setting it in the .env file
+
+40. Adding groq, cassio, beautifulsoup4, langchain-groq inside requirements.txt, pip install -r requirements.txt
+
+41. Load Webpage/Documemt -> Split -> Embed to VectorStore -> create_stuff_documents_chain(llm, prompt) -> create_retrieval_chain(retriever, document_chain) -> retrieval_chain.invoke({"input": prompt})
+
+42. Using ChatGroq(groq_api_key=groq_api_key, model_name="mixtral-8x7b-32768") as the llm
+
+43. Also showing the context(which comes from the vector store) with streamlit

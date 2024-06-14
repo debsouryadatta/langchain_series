@@ -20,3 +20,9 @@ faiss-cpu
 arxiv
 wikipedia
 langchainhub
+
+# Video 07
+groq
+cassio
+beautifulsoup4
+langchain-groq
